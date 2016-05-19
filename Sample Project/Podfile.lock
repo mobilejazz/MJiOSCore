@@ -1,0 +1,19 @@
+PODS:
+  - Cloudinary (1.0.15)
+  - Haneke (1.0.2)
+  - UIColor+Additions (2.0.2)
+  - UIImage+Additions (2.1.0)
+
+DEPENDENCIES:
+  - Cloudinary (~> 1.0)
+  - Haneke (~> 1.0)
+  - UIColor+Additions
+  - UIImage+Additions
+
+SPEC CHECKSUMS:
+  Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  UIColor+Additions: 8b14f4851a4da23ef60be123454f4f30fafdb5c2
+  UIImage+Additions: 6181430b139099649e56171d58a52d6c37d57e42
+
+COCOAPODS: 0.39.0

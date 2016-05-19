@@ -1,0 +1,33 @@
+{
+  "name": "MJiOSCore",
+  "version": "0.1.0",
+  "summary": "Mobile Jazz iOS Toolkit",
+  "description": "Common set of reusable classes, categories and definitions for iOS.",
+  "homepage": "https://github.com/mobilejazz/MJiOSCore",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mobile Jazz": "info@mobilejazz.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "social_media_url": "http://twitter.com/mobilejazz",
+  "source": {
+    "git": "https://github.com/mobilejazz/MJiOSCore.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+	  "Source Code/**/*.{h,m}"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+	"UIImage+Additions": [],
+	"UIColor+Additions": [],
+	"Cloudinary": ["~>1.0"],
+	"Haneke": ["~>1.0"]
+  },
+  "requires_arc": true
+}
