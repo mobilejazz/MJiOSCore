@@ -16,8 +16,8 @@
 
 #import "MJContainerViewController.h"
 
-#define ANIMATION_CURVE     (7 << 16)
-#define ANIMATION_DURATION  0.40
+#define ANIMATION_CURVE    (7 << 16)
+#define ANIMATION_DURATION 0.40
 
 @interface MJContainerViewController ()
 
@@ -30,7 +30,7 @@
     return [self initWithViewController:nil];
 }
 
-- (id)initWithViewController:(UIViewController*)viewController;
+- (id)initWithViewController:(UIViewController *)viewController;
 {
     self = [super initWithNibName:nil bundle:nil];
     if (self)
@@ -39,11 +39,6 @@
     }
     return self;
 }
-
-//- (void)dealloc
-//{
-//    // Nothing needs to be done
-//}
 
 - (void)viewDidLoad
 {
@@ -56,10 +51,11 @@
     [self.view addSubview:subview];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewWillLayoutSubviews
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillLayoutSubviews];
+    
+    [self.view.subviews firstObject].frame = self.view.bounds;
 }
 
 - (void)willMoveToParentViewController:(UIViewController *)parent
@@ -67,9 +63,13 @@
     [super willMoveToParentViewController:parent];
     
     if (parent != nil)
+    {
         [self addChildViewController:_viewController];
+    }
     else
+    {
         [_viewController willMoveToParentViewController:nil];
+    }
 }
 
 - (void)didMoveToParentViewController:(UIViewController *)parent
@@ -77,15 +77,21 @@
     [super didMoveToParentViewController:parent];
     
     if (parent != nil)
+    {
         [_viewController didMoveToParentViewController:self];
+    }
     else
+    {
         [_viewController removeFromParentViewController];
+    }
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     if (_viewController)
+    {
         return _viewController.preferredStatusBarStyle;
+    }
     
     return UIStatusBarStyleLightContent;
 }
@@ -93,7 +99,9 @@
 - (BOOL)shouldAutorotate
 {
     if (_viewController)
+    {
         return _viewController.shouldAutorotate;
+    }
     
     return NO;
 }
@@ -101,7 +109,9 @@
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     if (_viewController)
+    {
         return _viewController.supportedInterfaceOrientations;
+    }
     
     return UIInterfaceOrientationMaskPortrait;
 }
@@ -131,17 +141,19 @@
     {
         BOOL inHerarchy = YES;
         
-        void (^beforeAnimation)() = ^ {
+        void (^ beforeAnimation)() = ^{
             if (inHerarchy)
             {
                 [oldVC willMoveToParentViewController:nil];
                 
                 if (newVC)
+                {
                     [self addChildViewController:newVC];
+                }
             }
         };
         
-        void (^afterAnimation)() = ^ {
+        void (^ afterAnimation)() = ^{
             if (inHerarchy)
             {
                 [oldVC removeFromParentViewController];
@@ -150,7 +162,9 @@
             
             // Call completion block
             if (completionBlock)
+            {
                 completionBlock();
+            }
         };
         
         beforeAnimation();
@@ -221,14 +235,16 @@
 
 @implementation UIViewController (MJContainerViewController)
 
-- (MJContainerViewController*)mjz_containerViewController
+- (MJContainerViewController *)mjz_containerViewController
 {
     UIViewController *vc = self;
     
     while (vc != nil)
     {
         if ([vc isKindOfClass:MJContainerViewController.class])
-            return (MJContainerViewController*)vc;
+        {
+            return (MJContainerViewController *) vc;
+        }
         
         vc = vc.parentViewController;
     }
