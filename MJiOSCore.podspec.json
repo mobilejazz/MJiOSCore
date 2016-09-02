@@ -23,12 +23,6 @@
 	  "Source Code/**/*.{h,m}"
   ],
   "frameworks": "Foundation",
-  "dependencies": {
-	"UIImage+Additions": [],
-	"UIColor+Additions": [],
-	"Cloudinary": ["~>1.0"],
-	"Haneke": ["~>1.0"]
-  },
   "requires_arc": true,
   "subspecs": [
     {
