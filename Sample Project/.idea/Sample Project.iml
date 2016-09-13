@@ -26,13 +26,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKDiskFetcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKDiskCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKDiskCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/UIImageView+Haneke.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKSimpleFetcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/UIImageView+Haneke.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/UIView+Haneke.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/UIView+Haneke.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKDiskCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/HNKSimpleFetcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/Haneke.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Haneke/Haneke/UIButton+Haneke.m" isTestSource="false" />
@@ -47,16 +47,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Cloudinary/Cloudinary.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Cloudinary/Cloudinary-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Cloudinary/Cloudinary-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/UIImage+Additions/UIImage+Additions-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/UIImage+Additions/UIImage+Additions-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/UIImage+Additions/UIImage+Additions.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/UIImage+Additions/UIImage+Additions-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/UIImage+Additions/UIImage+Additions-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Cloudinary/Cloudinary/CLUploader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Cloudinary/Cloudinary/CLLayer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Cloudinary/Cloudinary/CLTransformation.m" isTestSource="false" />
@@ -90,10 +90,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Tools/MJCloudinaryInterface.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Tools/CLUploader+Additions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Tools/CLUploader+Additions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIResponder+Addtions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJTextViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJTextViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJTextViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIView+Additions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIResponder+Addtions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIView+Additions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIAlertView+Blocks.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/UIBarButtonItem+Additions.m" isTestSource="false" />
@@ -106,11 +106,15 @@
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJNotificationView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJMultiToggleControl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/Views/MJMultiToggleControl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Source Code/MJiOSCore.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJPDFViewerViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJContainerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJTableViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJPDFViewerDataSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJPDFViewerViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJTableViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJContainerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJPDFViewerDataSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/View Controllers/MJTableViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Source Code/MJiOSCore.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
