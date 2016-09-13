@@ -39,3 +39,4 @@ pod 'MJiOSCore/Views'
 ### View Controllers
 - MJContainerViewController
 - MJTableViewController
+- MJPDFViewerController
