@@ -1,4 +1,6 @@
-# MJiOSCore
+# ![Mobile Jazz Badge](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/icons/mj-40x40.png) MJiOSCore
+
+Several utilities that depend on UIKit, meant for iOS only projects
 
 ## How to 
 
