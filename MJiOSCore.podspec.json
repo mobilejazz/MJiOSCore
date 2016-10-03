@@ -1,6 +1,6 @@
 {
   "name": "MJiOSCore",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "summary": "Mobile Jazz iOS Toolkit",
   "description": "Common set of reusable classes, categories and definitions for iOS.",
   "homepage": "https://github.com/mobilejazz/MJiOSCore",
@@ -17,7 +17,7 @@
   "social_media_url": "http://twitter.com/mobilejazz",
   "source": {
     "git": "https://github.com/mobilejazz/MJiOSCore.git",
-    "tag": "0.3.1"
+    "tag": "0.3.3"
   },
   "source_files": [
 	  "Source Code/**/*.{h,m}"
