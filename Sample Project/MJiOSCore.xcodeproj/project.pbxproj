@@ -11,10 +11,10 @@
 		6580E1223EA21037F800DB81 /* MJPDFViewerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580E580AA63ACB5083363DD /* MJPDFViewerDataSource.m */; };
 		6580E41112659D7A8C9B1E7E /* MJPDFViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580ED0CCECA318251034EAC /* MJPDFViewerViewController.m */; };
 		6DC7251471157EC11F435127 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC74EA725A419E7CA3395F /* libPods.a */; };
+		D206807A1DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = D20680791DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m */; };
 		D28B54D01CEDFB2100491AF0 /* CLCloudinary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54CF1CEDFB2100491AF0 /* CLCloudinary+Additions.m */; };
 		D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */; };
 		D28B54D61CEE02AE00491AF0 /* CLUploader+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D51CEE02AE00491AF0 /* CLUploader+Additions.m */; };
-		D28B54D91CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D81CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.m */; };
 		D2FA1DDA1CEDDB5C0089E940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DD91CEDDB5C0089E940 /* main.m */; };
 		D2FA1DDD1CEDDB5C0089E940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DDC1CEDDB5C0089E940 /* AppDelegate.m */; };
 		D2FA1DE01CEDDB5C0089E940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DDF1CEDDB5C0089E940 /* ViewController.m */; };
@@ -64,14 +64,14 @@
 		6580EFADC41A5CE2708B4E75 /* MJPDFViewerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPDFViewerDataSource.h; sourceTree = "<group>"; };
 		AAFD09B619429C7D3B72BA7C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B6EC74EA725A419E7CA3395F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20680781DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MJCloudinaryInterface_Haneke.h"; sourceTree = "<group>"; };
+		D20680791DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MJCloudinaryInterface_Haneke.m"; sourceTree = "<group>"; };
 		D28B54CE1CEDFB2100491AF0 /* CLCloudinary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLCloudinary+Additions.h"; sourceTree = "<group>"; };
 		D28B54CF1CEDFB2100491AF0 /* CLCloudinary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLCloudinary+Additions.m"; sourceTree = "<group>"; };
 		D28B54D11CEDFB3500491AF0 /* CLTransformation+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLTransformation+Additions.h"; sourceTree = "<group>"; };
 		D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLTransformation+Additions.m"; sourceTree = "<group>"; };
 		D28B54D41CEE02AE00491AF0 /* CLUploader+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLUploader+Additions.h"; sourceTree = "<group>"; };
 		D28B54D51CEE02AE00491AF0 /* CLUploader+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLUploader+Additions.m"; sourceTree = "<group>"; };
-		D28B54D71CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Cloudinary_Haneke.h"; sourceTree = "<group>"; };
-		D28B54D81CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Cloudinary_Haneke.m"; sourceTree = "<group>"; };
 		D2FA1DD51CEDDB5C0089E940 /* MJiOSCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJiOSCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FA1DD91CEDDB5C0089E940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2FA1DDB1CEDDB5C0089E940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -240,6 +240,8 @@
 				D2FA1E0F1CEDDB770089E940 /* MJCloudinaryInterface.m */,
 				D2FA1E121CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.h */,
 				D2FA1E131CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m */,
+				D20680781DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.h */,
+				D20680791DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m */,
 				D2FA1E101CEDDB770089E940 /* MJPushNotificationQueue.h */,
 				D2FA1E111CEDDB770089E940 /* MJPushNotificationQueue.m */,
 				D28B54CE1CEDFB2100491AF0 /* CLCloudinary+Additions.h */,
@@ -248,8 +250,6 @@
 				D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */,
 				D28B54D41CEE02AE00491AF0 /* CLUploader+Additions.h */,
 				D28B54D51CEE02AE00491AF0 /* CLUploader+Additions.m */,
-				D28B54D71CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.h */,
-				D28B54D81CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -497,7 +497,7 @@
 				D2FA1E2D1CEDDB770089E940 /* MJContainerViewController.m in Sources */,
 				D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */,
 				D2FA1E2A1CEDDB770089E940 /* MJCloudinaryInterface.m in Sources */,
-				D28B54D91CEE082100491AF0 /* UIImageView+Cloudinary_Haneke.m in Sources */,
+				D206807A1DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m in Sources */,
 				D2FA1E2C1CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m in Sources */,
 				D2FA1E301CEDDB770089E940 /* MJNotificationView.m in Sources */,
 				D28B54D61CEE02AE00491AF0 /* CLUploader+Additions.m in Sources */,

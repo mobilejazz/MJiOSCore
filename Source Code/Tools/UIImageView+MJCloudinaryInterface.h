@@ -38,40 +38,4 @@
  **/
 @property (nonatomic, assign, setter=mjz_setImageCropMode:) MJCloudinaryImageCropMode mjz_imageCropMode;
 
-/** *************************************************** **
- * @name Setting images
- ** *************************************************** **/
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey radius:(CGFloat)radius;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey placeholder:(UIImage*)placeholder;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey
-                          radius:(CGFloat)radius
-                     placeholder:(UIImage*)placeholder;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey
-                pretransformCrop:(CGRect)pretransformCrop
-                          radius:(CGFloat)radius
-                     placeholder:(UIImage*)placeholder;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey
-                     placeholder:(UIImage*)placeholder
-                         success:(void (^)(UIImage *image))successBlock
-                         failure:(void (^)(NSError *error))failureBlock;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey
-                          radius:(CGFloat)radius
-                     placeholder:(UIImage*)placeholder
-                         success:(void (^)(UIImage *image))successBlock
-                         failure:(void (^)(NSError *error))failureBlock;
-
-- (void)mjz_setImageFromImageKey:(NSString*)imageKey
-                pretransformCrop:(CGRect)pretransformCrop
-                          radius:(CGFloat)radius
-                     placeholder:(UIImage*)placeholder
-                         success:(void (^)(UIImage *image))successBlock
-                         failure:(void (^)(NSError *error))failureBlock;
 @end
