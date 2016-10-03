@@ -25,28 +25,28 @@ typedef NS_ENUM(NSUInteger, MJNotificationViewUserInteraction)
 
 /**
  * This class handles notification views and displays them into the key window.
- * 
+ *
  * - Only one notification at a time can be displayed. Multiple notifications are enqueued and displayed one after the other.
- * - Use the view's tintColor property to set the alert color (default value is purple).
+ * - Use the view's tintColor property to set the alert color (default value is blue).
  *
  **/
 @interface MJNotificationView : UIView
 
 /**
  * Default initializer.
- * @param text The text to display.
+ * @param Text The text to display.
  **/
 - (id)initWithText:(NSString*)text;
 
 /**
- * The text to display.
+ * The text.
  **/
-@property (nonatomic, strong, readonly) NSString *text;
+@property (nonatomic, copy) NSString *text;
 
 /**
- * Used text attributes.
+ * The text attributes.
  **/
-@property (nonatomic, strong, readonly) NSDictionary *textAttributes;
+@property (nonatomic, strong) NSDictionary *textAttributes UI_APPEARANCE_SELECTOR;
 
 /**
  * Custom user info.
