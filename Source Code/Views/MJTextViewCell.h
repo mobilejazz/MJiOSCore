@@ -85,6 +85,15 @@ extern NSString * const MJTextViewCellIdentifier;
 @optional
 
 /**
+ * Method called when editing the text field.
+ * @param cell The cell.
+ * @param range The range of change
+ * @param text The replacement text for the given range.
+ * @return YES if the change is allowed, NO otherwise.
+ **/
+- (BOOL)textViewCell:(MJTextViewCell*)cell shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text;
+
+/**
  * Method called when resigning the first responder of the keyboard.
  * @param cell The cell.
  * @param text The final text.

@@ -193,6 +193,14 @@ NSString * const MJTextViewCellIdentifier = @"MJTextViewCellIdentifier";
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
+    BOOL shouldChangeText = YES;
+    
+    if ([_delegate respondsToSelector:@selector(textViewCell:shouldChangeTextInRange:replacementText:)])
+        shouldChangeText = [_delegate textViewCell:self shouldChangeTextInRange:range replacementText:text];
+    
+    if (!shouldChangeText)
+        return NO;
+    
     if (_returnLineResignsTextView)
     {
         if ([text isEqualToString:@"\n"])
