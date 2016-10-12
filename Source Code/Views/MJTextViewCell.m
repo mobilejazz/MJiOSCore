@@ -1,4 +1,4 @@
- //
+//
 // Copyright 2014 Mobile Jazz SL
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +18,6 @@
 
 #import "UIView+Additions.h"
 
-#define MINIMUM_HEIGHT 40.0f
 #define PLACEHOLDER_MARGIN 0.0f
 
 static CGFloat const kUITextViewHorizontalPadding = 10;
@@ -47,6 +46,7 @@ NSString * const MJTextViewCellIdentifier = @"MJTextViewCellIdentifier";
 - (void)mjz_doInit
 {
     _returnLineResignsTextView = YES;
+    _minimumCellHeight = 40;
     
     _placeholderLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     _placeholderLabel.textColor = [UIColor colorWithWhite:0.8 alpha:1.0];
@@ -99,7 +99,7 @@ NSString * const MJTextViewCellIdentifier = @"MJTextViewCellIdentifier";
     textViewFrame.origin.x = self.separatorInset.left - kUITextViewHorizontalPadding/2.0;
     textViewFrame.size.width = bounds.size.width - self.separatorInset.left - self.separatorInset.right;
     _textView.frame = textViewFrame;
-
+    
     CGRect labelFrame = textViewFrame;
     labelFrame.size.width -= self.textView.textContainerInset.left + self.textView.textContainerInset.right;
     _placeholderLabel.frame = labelFrame;
@@ -158,9 +158,9 @@ NSString * const MJTextViewCellIdentifier = @"MJTextViewCellIdentifier";
     }
     
     CGRect bounds = [text boundingRectWithSize:CGSizeMake(size.width - self.separatorInset.left - self.separatorInset.right - kUITextViewHorizontalPadding, CGFLOAT_MAX)
-                                                 options:NSStringDrawingUsesLineFragmentOrigin
-                                              attributes:@{NSFontAttributeName: font}
-                                                 context:nil];
+                                       options:NSStringDrawingUsesLineFragmentOrigin
+                                    attributes:@{NSFontAttributeName: font}
+                                       context:nil];
     
     return ceilf(MAX([self mjz_minimumHeightForSize:size], bounds.size.height + self.textView.textContainerInset.top + self.textView.textContainerInset.bottom + 1));
 }
@@ -169,16 +169,16 @@ NSString * const MJTextViewCellIdentifier = @"MJTextViewCellIdentifier";
 {
     NSString *text = _placeholderLabel.text;
     UIFont *font = _placeholderLabel.font;
- 
+    
     if (text.length == 0)
-        return MINIMUM_HEIGHT;
+        return _minimumCellHeight;
     
     CGRect bounds = [text boundingRectWithSize:CGSizeMake(size.width - self.separatorInset.left - self.separatorInset.right - kUITextViewHorizontalPadding, CGFLOAT_MAX)
                                        options:NSStringDrawingUsesLineFragmentOrigin
                                     attributes:@{NSFontAttributeName: font}
                                        context:nil];
     
-    return ceilf(MAX(MINIMUM_HEIGHT, bounds.size.height + self.textView.textContainerInset.top + self.textView.textContainerInset.bottom + 1));
+    return ceilf(MAX(_minimumCellHeight, bounds.size.height + self.textView.textContainerInset.top + self.textView.textContainerInset.bottom + 1));
 }
 
 #pragma mark KVO

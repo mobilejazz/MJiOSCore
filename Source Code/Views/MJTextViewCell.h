@@ -51,6 +51,11 @@ extern NSString * const MJTextViewCellIdentifier;
  **/
 @property (nonatomic, assign) BOOL returnLineResignsTextView;
 
+/**
+ * The minimum cell height. Default value is 40.
+ **/
+@property (nonatomic, assign) CGFloat minimumCellHeight;
+
 /** ************************************************************ **
  * @name Delegate
  ** ************************************************************ **/
