@@ -30,7 +30,7 @@
       "source_files": "Source Code/Tools/*.{h,m}",
       "dependencies": {
         "Cloudinary": ["~>1.0"],
-        "Haneke": ["~>1.0"]
+        "Haneke": [":git => 'https://github.com/mobilejazz-contrib/Haneke.git'"]
       }
     },
     {
