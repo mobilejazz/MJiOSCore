@@ -54,7 +54,7 @@ static NSString *_lastKey = nil;
 
 - (id)initWithText:(NSString*)text
 {
-    self = [super init];
+    self = [super initWithFrame:CGRectMake(0, 0, 320, 80)];
     if (self)
     {
         self.tintColor = [[UIColor cyanColor] colorWithAlphaComponent:0.8];
@@ -74,7 +74,9 @@ static NSString *_lastKey = nil;
         _label = [[UILabel alloc] initWithFrame:CGRectZero];
         _label.backgroundColor = [UIColor clearColor];
         _label.numberOfLines = 0;
+        _label.textAlignment = NSTextAlignmentCenter;
         _label.attributedText = [[NSAttributedString alloc] initWithString:_text attributes:_textAttributes];
+        
         _label.translatesAutoresizingMaskIntoConstraints = NO;
         
         [self addSubview:_label];
@@ -86,7 +88,7 @@ static NSString *_lastKey = nil;
                                                                          attribute:NSLayoutAttributeTop
                                                                         multiplier:1
                                                                           constant:kMJNotificationViewTopMargin];
-        [self.superview addConstraint:topConstraint];
+        [self addConstraint:topConstraint];
         
         NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:_label
                                                                           attribute:NSLayoutAttributeLeft
@@ -95,25 +97,25 @@ static NSString *_lastKey = nil;
                                                                           attribute:NSLayoutAttributeLeft
                                                                          multiplier:1
                                                                            constant:kMJNotificationViewLeftMargin];
-        [self.superview addConstraint:leftConstraint];
+        [self addConstraint:leftConstraint];
         
         NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:_label
-                                                                          attribute:NSLayoutAttributeRight
-                                                                          relatedBy:NSLayoutRelationEqual
-                                                                             toItem:_label.superview
-                                                                          attribute:NSLayoutAttributeRight
-                                                                         multiplier:1
-                                                                           constant:kMJNotificationViewRightMargin];
-        [self.superview addConstraint:rightConstraint];
-        
-        NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:_label
-                                                                           attribute:NSLayoutAttributeBottom
+                                                                           attribute:NSLayoutAttributeRight
                                                                            relatedBy:NSLayoutRelationEqual
                                                                               toItem:_label.superview
-                                                                           attribute:NSLayoutAttributeBottom
+                                                                           attribute:NSLayoutAttributeRight
                                                                           multiplier:1
-                                                                            constant:kMJNotificationViewBottomMargin];
-        [self.superview addConstraint:bottomConstraint];
+                                                                            constant:-kMJNotificationViewRightMargin];
+        [self addConstraint:rightConstraint];
+        
+        NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:_label
+                                                                            attribute:NSLayoutAttributeBottom
+                                                                            relatedBy:NSLayoutRelationEqual
+                                                                               toItem:_label.superview
+                                                                            attribute:NSLayoutAttributeBottom
+                                                                           multiplier:1
+                                                                             constant:-kMJNotificationViewBottomMargin];
+        [self addConstraint:bottomConstraint];
     }
     return self;
 }
@@ -149,7 +151,8 @@ static NSString *_lastKey = nil;
 
 - (CGSize)sizeThatFits:(CGSize)size
 {
-    return [self systemLayoutSizeFittingSize:size];
+    CGSize finalSize = [self systemLayoutSizeFittingSize:size];
+    return finalSize;
 }
 
 #pragma mark Public Methods
@@ -185,6 +188,8 @@ static NSString *_lastKey = nil;
         
         // Resizing the current notification view
         [self sizeToFit];
+        [self setNeedsLayout];
+        [self layoutIfNeeded];
         
         // Displaying the notification view
         [self mjz_displayOnView:displayView completionBlock:^{
@@ -260,7 +265,7 @@ static NSString *_lastKey = nil;
                                    bounds.size.height);
     
     self.frame = initialFrame;
-
+    
     [view addSubview:self];
     
     [UIView animateWithDuration:0.25 animations:^{
