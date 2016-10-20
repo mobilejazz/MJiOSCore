@@ -116,7 +116,8 @@ typedef NS_ENUM(NSUInteger, MJPushNotificationDelivery)
  * Tells the delegate that a new notification has been received.
  * @param queue The notification queue.
  * @param userInfo The remote notification.
+ * @param applicationState The application state when the notification was received.
  **/
-- (void)pushNotificationQueue:(MJPushNotificationQueue*)queue didReceiveNotification:(NSDictionary*)userInfo;
+- (void)pushNotificationQueue:(MJPushNotificationQueue*)queue didReceiveNotification:(NSDictionary*)userInfo inApplicationState:(UIApplicationState)appplicationState;
 
 @end

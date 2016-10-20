@@ -16,6 +16,19 @@
 
 #import "MJPushNotificationQueue.h"
 
+@interface MJPushNotificationQueueItem : NSObject
+
+@property (nonatomic, assign) UIApplicationState applicationState;
+@property (nonatomic, strong) NSDate *date;
+@property (nonatomic, strong) NSDictionary *userInfo;
+
+@end
+
+@implementation MJPushNotificationQueueItem
+
+@end
+
+
 @implementation MJPushNotificationQueue
 {
     NSOperationQueue *_operationQueue;
@@ -60,7 +73,12 @@
     {
         deliverNotification = (_delivery & MJPushNotificationDeliveryApplicationBackground) != 0;
     }
-
+    
+    MJPushNotificationQueueItem *item = [[MJPushNotificationQueueItem alloc] init];
+    item.applicationState = applicationState;
+    item.userInfo = userInfo;
+    item.date = [NSDate date];
+    
     if ([_delegate respondsToSelector:@selector(pushNotificationQueue:actionForPushNotification:completionHandler:)])
     {
         [_delegate pushNotificationQueue:self actionForPushNotification:userInfo completionHandler:^(MJPushNotificationAction action, UIBackgroundFetchResult fetchResult) {
@@ -71,7 +89,7 @@
             
             if (deliverNotification)
             {
-                [self pw_handleNotification:userInfo withAction:action];
+                [self pw_handleNotification:item withAction:action];
             }
         }];
     }
@@ -86,7 +104,7 @@
         
         if (deliverNotification)
         {
-            [self pw_handleNotification:userInfo withAction:action];
+            [self pw_handleNotification:item withAction:action];
         }
     }
 }
@@ -108,12 +126,12 @@
 
 #pragma mark Private Methods
 
-- (void)pw_handleNotification:(NSDictionary*)userInfo withAction:(MJPushNotificationAction)action
+- (void)pw_handleNotification:(MJPushNotificationQueueItem*)item withAction:(MJPushNotificationAction)action
 {
     if (action == MJPushNotificationActionQueue)
     {
         [_operationQueue addOperationWithBlock:^{
-            [self pw_processPush:userInfo];
+            [self pw_processPush:item];
         }];
     }
     else if (action == MJPushNotificationActionIgnore)
@@ -122,16 +140,16 @@
     }
     else if (action == MJPushNotificationActionProcess)
     {
-        [self pw_processPush:userInfo];
+        [self pw_processPush:item];
     }
 }
 
-- (void)pw_processPush:(NSDictionary*)userInfo
+- (void)pw_processPush:(MJPushNotificationQueueItem*)item
 {
-    if ([_delegate respondsToSelector:@selector(pushNotificationQueue:didReceiveNotification:)])
+    if ([_delegate respondsToSelector:@selector(pushNotificationQueue:didReceiveNotification:inApplicationState:)])
     {
         dispatch_async(dispatch_get_main_queue(), ^{
-           [_delegate pushNotificationQueue:self didReceiveNotification:userInfo]; 
+            [_delegate pushNotificationQueue:self didReceiveNotification:item.userInfo inApplicationState:item.applicationState];
         });
     }
 }
