@@ -6,7 +6,7 @@ Several utilities that depend on UIKit, meant for iOS only projects
 
 To install the MJ iOS Core library, just paste the following line in your podfile:
 ```
-pod 'mj-ios-core', :git => 'https://github.com/mobilejazz/MJiOSCore.git', :tag => '1.0.0'
+pod 'mj-ios-core', :git => 'https://bitbucket.org/mobilejazz/mj-ios-core.git', :tag => '1.0.0'
 ```
 
 We also have some subpods that can be installed like this:
