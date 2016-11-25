@@ -1,3 +1,5 @@
+![Mobile Jazz Vastra](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/banners/mobile-jazz-ios-core.jpg)
+
 # ![Mobile Jazz Badge](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/icons/mj-40x40.png) MJiOSCore
 
 Several utilities that depend on UIKit, meant for iOS only projects
