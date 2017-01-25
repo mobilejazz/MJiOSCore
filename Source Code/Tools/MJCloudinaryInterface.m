@@ -59,6 +59,7 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
         _fileFormat = MJCloudinaryImageFileFormatJPG;
         _radiusFileFormat = MJCloudinaryImageFileFormatPNG;
         _jpgCompressionQuality = 1.0;
+        _useHTTPS = YES;
     }
     return self;
 }
@@ -107,10 +108,14 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     if (!image)
     {
         if (_enableDebugLogs)
+        {
             NSLog(@"[MJCloudinaryInterface] IMAGE UPLOAD: Could not upload nil image.");
+        }
         
         if (completionBlock)
+        {
             completionBlock(nil, nil, nil);
+        }
         
         return NO;
     }
@@ -119,8 +124,17 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     if ([image isKindOfClass:UIImage.class])
     {
         if (_enableDebugLogs)
+        {
             NSLog(@"[MJCloudinaryInterface] IMAGE UPLOAD: Compressing image to JPG at 0.7 compression quality rate.");
+        }
         imageData = UIImageJPEGRepresentation(image, 0.7);
+    }
+    
+    if (_useHTTPS)
+    {
+        NSMutableDictionary *dictionary = [options mutableCopy];
+        dictionary[@"secure"] = @YES;
+        options = [dictionary copy];
     }
     
     if (_enableDebugLogs)
@@ -171,11 +185,13 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     {
         CLTransformation *transformation = [CLTransformation transformation];
         transformation.quality = @(_jpgCompressionQuality*100);
-        url = [_cloudinary url:imageKey options:@{@"transformation" : transformation}];
+        url = [_cloudinary url:imageKey options:@{@"transformation" : transformation,
+                                                  @"secure": @(_useHTTPS),
+                                                  }];
     }
     else
     {
-        url = [_cloudinary url:imageKey];
+        url = [_cloudinary url:imageKey options:@{@"secure": @(_useHTTPS)}];
     }
     
     if (_enableDebugLogs)
@@ -207,7 +223,9 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     if (_jpgCompressionQuality < 1.0)
         transformation.quality = @(_jpgCompressionQuality*100);
     
-    NSString *url = [_cloudinary url:imageKey options:@{@"transformation": transformation}];
+    NSString *url = [_cloudinary url:imageKey options:@{@"transformation": transformation,
+                                                        @"secure": @(_useHTTPS),
+                                                        }];
     
     if (_enableDebugLogs)
         NSLog(@"[MJCloudinaryInterface] URL CREATION:\n{\n\tkey:%@,\n\tsize:%@,\n\tscale:%.2f,\n\tcrop_mode:%ld,\n\tradius:%.2f,\n}\nURL: %@\n",imageKey, NSStringFromCGSize(size), scale, (long)cropMode, radius, url);
@@ -232,7 +250,9 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     
     if (CGRectEqualToRect(pretransformCropRect, CGRectZero))
     {
-        NSString *url = [_cloudinary url:imageKey options:@{@"transformation": regularTransformation}];
+        NSString *url = [_cloudinary url:imageKey options:@{@"transformation": regularTransformation,
+                                                            @"secure": @(_useHTTPS),
+                                                            }];
         return [NSURL URLWithString:url];
     }
     
@@ -244,8 +264,12 @@ MJCloudinaryImageFileFormat * const MJCloudinaryImageFileFormatWEBP = @"webp";
     [cropTransformation setHeight:@(pretransformCropRect.size.height)];
     [cropTransformation setCrop:@"crop"];
     
-    NSString *url1 = [_cloudinary url:imageKey options:@{@"transformation": cropTransformation}];
-    NSString *url2 = [_cloudinary url:imageKey options:@{@"transformation": regularTransformation}];
+    NSString *url1 = [_cloudinary url:imageKey options:@{@"transformation": cropTransformation,
+                                                         @"secure": @(_useHTTPS),
+                                                         }];
+    NSString *url2 = [_cloudinary url:imageKey options:@{@"transformation": regularTransformation,
+                                                         @"secure": @(_useHTTPS),
+                                                         }];
 
     NSArray *pathComponents = [url2 pathComponents];
     NSString *last2Components = [pathComponents[pathComponents.count-2] stringByAppendingPathComponent:pathComponents[pathComponents.count-1]];

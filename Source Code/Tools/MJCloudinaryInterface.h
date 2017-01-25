@@ -106,7 +106,12 @@ FOUNDATION_EXTERN MJCloudinaryImageCropMode MJCloudinaryImageCropModeFromUIViewC
 /**
  * The JPG compression quality. Value from 0 to 1 (0 the worst quality, 1 no quality compression). Default value is 1.
  **/
-@property(nonatomic, assign) CGFloat jpgCompressionQuality;
+@property (nonatomic, assign) CGFloat jpgCompressionQuality;
+
+/**
+ * YES to use HTTPS, NO to use HTTP. Default value is YES.
+ **/
+@property (nonatomic, assign) BOOL useHTTPS;
 
 /** *************************************************** **
  * @name Uploading images
