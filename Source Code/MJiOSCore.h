@@ -28,4 +28,9 @@
 #import "MJContainerViewController.h"
 #import "MJContainedTableViewController.h"
 
+// MVP
+#import "MJViewController.h"
+#import "MJTableViewController.h"
+#import "MJViewControllerPresenter.h"
+
 #endif /* MJiOSCore_h */
