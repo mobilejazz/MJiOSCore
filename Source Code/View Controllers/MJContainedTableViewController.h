@@ -20,7 +20,7 @@
  * Custom container view controller that contains a UITableViewController and exposes all its methods and properties.
  * Useful when desiring a UIViewController but not UITableViewController subclass and wanting to use a native supported UIRefreshControl.
  **/
-@interface MJTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface MJContainedTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withStyle:(UITableViewStyle)style;
 

@@ -15,6 +15,9 @@
 		D28B54D01CEDFB2100491AF0 /* CLCloudinary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54CF1CEDFB2100491AF0 /* CLCloudinary+Additions.m */; };
 		D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */; };
 		D28B54D61CEE02AE00491AF0 /* CLUploader+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D51CEE02AE00491AF0 /* CLUploader+Additions.m */; };
+		D2CC88B51E85818C00B8C950 /* MJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CC88B01E85818C00B8C950 /* MJTableViewController.m */; };
+		D2CC88B61E85818C00B8C950 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CC88B21E85818C00B8C950 /* MJViewController.m */; };
+		D2CC88B71E85818C00B8C950 /* MJViewControllerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CC88B41E85818C00B8C950 /* MJViewControllerPresenter.m */; };
 		D2FA1DDA1CEDDB5C0089E940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DD91CEDDB5C0089E940 /* main.m */; };
 		D2FA1DDD1CEDDB5C0089E940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DDC1CEDDB5C0089E940 /* AppDelegate.m */; };
 		D2FA1DE01CEDDB5C0089E940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1DDF1CEDDB5C0089E940 /* ViewController.m */; };
@@ -27,7 +30,7 @@
 		D2FA1E2B1CEDDB770089E940 /* MJPushNotificationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E111CEDDB770089E940 /* MJPushNotificationQueue.m */; };
 		D2FA1E2C1CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E131CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m */; };
 		D2FA1E2D1CEDDB770089E940 /* MJContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E161CEDDB770089E940 /* MJContainerViewController.m */; };
-		D2FA1E2E1CEDDB770089E940 /* MJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E181CEDDB770089E940 /* MJTableViewController.m */; };
+		D2FA1E2E1CEDDB770089E940 /* MJContainedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E181CEDDB770089E940 /* MJContainedTableViewController.m */; };
 		D2FA1E2F1CEDDB770089E940 /* MJMultiToggleControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E1B1CEDDB770089E940 /* MJMultiToggleControl.m */; };
 		D2FA1E301CEDDB770089E940 /* MJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E1D1CEDDB770089E940 /* MJNotificationView.m */; };
 		D2FA1E311CEDDB770089E940 /* MJTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA1E1F1CEDDB770089E940 /* MJTextViewCell.m */; };
@@ -72,6 +75,12 @@
 		D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLTransformation+Additions.m"; sourceTree = "<group>"; };
 		D28B54D41CEE02AE00491AF0 /* CLUploader+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLUploader+Additions.h"; sourceTree = "<group>"; };
 		D28B54D51CEE02AE00491AF0 /* CLUploader+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLUploader+Additions.m"; sourceTree = "<group>"; };
+		D2CC88AF1E85818C00B8C950 /* MJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTableViewController.h; sourceTree = "<group>"; };
+		D2CC88B01E85818C00B8C950 /* MJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTableViewController.m; sourceTree = "<group>"; };
+		D2CC88B11E85818C00B8C950 /* MJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		D2CC88B21E85818C00B8C950 /* MJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		D2CC88B31E85818C00B8C950 /* MJViewControllerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJViewControllerPresenter.h; sourceTree = "<group>"; };
+		D2CC88B41E85818C00B8C950 /* MJViewControllerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJViewControllerPresenter.m; sourceTree = "<group>"; };
 		D2FA1DD51CEDDB5C0089E940 /* MJiOSCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJiOSCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FA1DD91CEDDB5C0089E940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2FA1DDB1CEDDB5C0089E940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,8 +106,8 @@
 		D2FA1E131CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MJCloudinaryInterface.m"; sourceTree = "<group>"; };
 		D2FA1E151CEDDB770089E940 /* MJContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJContainerViewController.h; sourceTree = "<group>"; };
 		D2FA1E161CEDDB770089E940 /* MJContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJContainerViewController.m; sourceTree = "<group>"; };
-		D2FA1E171CEDDB770089E940 /* MJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTableViewController.h; sourceTree = "<group>"; };
-		D2FA1E181CEDDB770089E940 /* MJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTableViewController.m; sourceTree = "<group>"; };
+		D2FA1E171CEDDB770089E940 /* MJContainedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJContainedTableViewController.h; sourceTree = "<group>"; };
+		D2FA1E181CEDDB770089E940 /* MJContainedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJContainedTableViewController.m; sourceTree = "<group>"; };
 		D2FA1E1A1CEDDB770089E940 /* MJMultiToggleControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMultiToggleControl.h; sourceTree = "<group>"; };
 		D2FA1E1B1CEDDB770089E940 /* MJMultiToggleControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMultiToggleControl.m; sourceTree = "<group>"; };
 		D2FA1E1C1CEDDB770089E940 /* MJNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNotificationView.h; sourceTree = "<group>"; };
@@ -158,6 +167,19 @@
 				B6EC74EA725A419E7CA3395F /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2CC88AE1E85818C00B8C950 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D2CC88AF1E85818C00B8C950 /* MJTableViewController.h */,
+				D2CC88B01E85818C00B8C950 /* MJTableViewController.m */,
+				D2CC88B11E85818C00B8C950 /* MJViewController.h */,
+				D2CC88B21E85818C00B8C950 /* MJViewController.m */,
+				D2CC88B31E85818C00B8C950 /* MJViewControllerPresenter.h */,
+				D2CC88B41E85818C00B8C950 /* MJViewControllerPresenter.m */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 		D2FA1DCC1CEDDB5C0089E940 = {
@@ -227,6 +249,7 @@
 				D2FA1E0C1CEDDB770089E940 /* MJiOSCore.h */,
 				D2FA1E0D1CEDDB770089E940 /* Tools */,
 				D2FA1E141CEDDB770089E940 /* View Controllers */,
+				D2CC88AE1E85818C00B8C950 /* MVP */,
 				D2FA1E191CEDDB770089E940 /* Views */,
 			);
 			name = "Source Code";
@@ -259,8 +282,8 @@
 			children = (
 				D2FA1E151CEDDB770089E940 /* MJContainerViewController.h */,
 				D2FA1E161CEDDB770089E940 /* MJContainerViewController.m */,
-				D2FA1E171CEDDB770089E940 /* MJTableViewController.h */,
-				D2FA1E181CEDDB770089E940 /* MJTableViewController.m */,
+				D2FA1E171CEDDB770089E940 /* MJContainedTableViewController.h */,
+				D2FA1E181CEDDB770089E940 /* MJContainedTableViewController.m */,
 				6580ED0CCECA318251034EAC /* MJPDFViewerViewController.m */,
 				6580EC2FDCB2B0B2622288C6 /* MJPDFViewerViewController.h */,
 				6580E580AA63ACB5083363DD /* MJPDFViewerDataSource.m */,
@@ -491,21 +514,24 @@
 				D2FA1E361CEDDB770089E940 /* UIView+Additions.m in Sources */,
 				D2FA1E351CEDDB770089E940 /* UIResponder+Addtions.m in Sources */,
 				D2FA1E331CEDDB770089E940 /* UIAlertView+Blocks.m in Sources */,
-				D2FA1E2E1CEDDB770089E940 /* MJTableViewController.m in Sources */,
+				D2FA1E2E1CEDDB770089E940 /* MJContainedTableViewController.m in Sources */,
 				D2FA1E311CEDDB770089E940 /* MJTextViewCell.m in Sources */,
 				D28B54D01CEDFB2100491AF0 /* CLCloudinary+Additions.m in Sources */,
 				D2FA1E2D1CEDDB770089E940 /* MJContainerViewController.m in Sources */,
 				D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */,
 				D2FA1E2A1CEDDB770089E940 /* MJCloudinaryInterface.m in Sources */,
 				D206807A1DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m in Sources */,
+				D2CC88B51E85818C00B8C950 /* MJTableViewController.m in Sources */,
 				D2FA1E2C1CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m in Sources */,
 				D2FA1E301CEDDB770089E940 /* MJNotificationView.m in Sources */,
 				D28B54D61CEE02AE00491AF0 /* CLUploader+Additions.m in Sources */,
 				D2FA1DE01CEDDB5C0089E940 /* ViewController.m in Sources */,
 				D2FA1E321CEDDB770089E940 /* UIActionSheet+Blocks.m in Sources */,
+				D2CC88B71E85818C00B8C950 /* MJViewControllerPresenter.m in Sources */,
 				D2FA1E2F1CEDDB770089E940 /* MJMultiToggleControl.m in Sources */,
 				D2FA1DDD1CEDDB5C0089E940 /* AppDelegate.m in Sources */,
 				D2FA1DDA1CEDDB5C0089E940 /* main.m in Sources */,
+				D2CC88B61E85818C00B8C950 /* MJViewController.m in Sources */,
 				D2FA1E341CEDDB770089E940 /* UIBarButtonItem+Additions.m in Sources */,
 				D2FA1E2B1CEDDB770089E940 /* MJPushNotificationQueue.m in Sources */,
 				6580E41112659D7A8C9B1E7E /* MJPDFViewerViewController.m in Sources */,

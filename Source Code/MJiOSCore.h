@@ -26,6 +26,6 @@
 
 // View Controllers
 #import "MJContainerViewController.h"
-#import "MJTableViewController.h"
+#import "MJContainedTableViewController.h"
 
 #endif /* MJiOSCore_h */

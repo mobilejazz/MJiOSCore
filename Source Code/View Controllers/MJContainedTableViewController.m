@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "MJTableViewController.h"
+#import "MJContainedTableViewController.h"
 
-@interface MJTableViewController ()
+@interface MJContainedTableViewController ()
 
 @property (nonatomic, strong) UITableViewController *tableViewController;
 
 @end
 
-@implementation MJTableViewController
+@implementation MJContainedTableViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,7 +34,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
-        [self tfm_initWithStyle:style];
+        [self mjz_initWithStyle:style];
     }
     return self;
 }
@@ -45,7 +45,7 @@
     self = [super initWithNibName:nil bundle:nil];
     if (self)
     {
-        [self tfm_initWithStyle:style];
+        [self mjz_initWithStyle:style];
     }
     return self;
 }
@@ -55,7 +55,7 @@
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        [self tfm_initWithStyle:UITableViewStylePlain];
+        [self mjz_initWithStyle:UITableViewStylePlain];
     }
     return self;
 }
@@ -148,7 +148,7 @@
 
 #pragma mark Private Methods
 
-- (void)tfm_initWithStyle:(UITableViewStyle)style
+- (void)mjz_initWithStyle:(UITableViewStyle)style
 {
     _tableViewController = [[UITableViewController alloc] initWithStyle:style];
     _tableViewController.tableView.delegate = self;
