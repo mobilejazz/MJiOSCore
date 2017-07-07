@@ -11,6 +11,7 @@
 		6580E1223EA21037F800DB81 /* MJPDFViewerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580E580AA63ACB5083363DD /* MJPDFViewerDataSource.m */; };
 		6580E41112659D7A8C9B1E7E /* MJPDFViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580ED0CCECA318251034EAC /* MJPDFViewerViewController.m */; };
 		6DC7251471157EC11F435127 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC74EA725A419E7CA3395F /* libPods.a */; };
+		74EED8271F0FD68100A37312 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EED8261F0FD68100A37312 /* UIButton+Additions.m */; };
 		D206807A1DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = D20680791DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m */; };
 		D28B54D01CEDFB2100491AF0 /* CLCloudinary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54CF1CEDFB2100491AF0 /* CLCloudinary+Additions.m */; };
 		D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B54D21CEDFB3500491AF0 /* CLTransformation+Additions.m */; };
@@ -65,6 +66,8 @@
 		6580EC2FDCB2B0B2622288C6 /* MJPDFViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPDFViewerViewController.h; sourceTree = "<group>"; };
 		6580ED0CCECA318251034EAC /* MJPDFViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPDFViewerViewController.m; sourceTree = "<group>"; };
 		6580EFADC41A5CE2708B4E75 /* MJPDFViewerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPDFViewerDataSource.h; sourceTree = "<group>"; };
+		74EED8251F0FD68100A37312 /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		74EED8261F0FD68100A37312 /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
 		AAFD09B619429C7D3B72BA7C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B6EC74EA725A419E7CA3395F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20680781DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MJCloudinaryInterface_Haneke.h"; sourceTree = "<group>"; };
@@ -307,6 +310,8 @@
 				D2FA1E231CEDDB770089E940 /* UIAlertView+Blocks.m */,
 				D2FA1E241CEDDB770089E940 /* UIBarButtonItem+Additions.h */,
 				D2FA1E251CEDDB770089E940 /* UIBarButtonItem+Additions.m */,
+				74EED8251F0FD68100A37312 /* UIButton+Additions.h */,
+				74EED8261F0FD68100A37312 /* UIButton+Additions.m */,
 				D2FA1E261CEDDB770089E940 /* UIResponder+Additions.h */,
 				D2FA1E271CEDDB770089E940 /* UIResponder+Addtions.m */,
 				D2FA1E281CEDDB770089E940 /* UIView+Additions.h */,
@@ -520,6 +525,7 @@
 				D2FA1E2D1CEDDB770089E940 /* MJContainerViewController.m in Sources */,
 				D28B54D31CEDFB3500491AF0 /* CLTransformation+Additions.m in Sources */,
 				D2FA1E2A1CEDDB770089E940 /* MJCloudinaryInterface.m in Sources */,
+				74EED8271F0FD68100A37312 /* UIButton+Additions.m in Sources */,
 				D206807A1DA305CB00046A04 /* UIImageView+MJCloudinaryInterface_Haneke.m in Sources */,
 				D2CC88B51E85818C00B8C950 /* MJTableViewController.m in Sources */,
 				D2FA1E2C1CEDDB770089E940 /* UIImageView+MJCloudinaryInterface.m in Sources */,
