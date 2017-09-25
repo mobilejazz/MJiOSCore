@@ -34,7 +34,7 @@
 /**
  * Initializes a new item using the specified image and other properties.
  * @param image The image
- * @param style The style
+ * @param style The style
  * @param block The action block.
  * @return An initialized instance.
  **/
@@ -43,7 +43,7 @@
 /**
  * Initializes a new item using the specified title and other properties.
  * @param title The title
- * @param style The style
+ * @param style The style
  * @param block The action block.
  * @return An initialized instance.
  **/
@@ -52,7 +52,6 @@
 /**
  * Initializes a new item containing the specified system item.
  * @param systemItem The sytem item value.
- * @param style The style
  * @param block The action block.
  * @return An initialized instance.
  **/

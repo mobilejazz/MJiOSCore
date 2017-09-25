@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, MJNotificationViewUserInteraction)
 
 /**
  * Default initializer.
- * @param Text The text to display.
+ * @param text The text to display.
  **/
 - (id)initWithText:(NSString*)text;
 
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSUInteger, MJNotificationViewUserInteraction)
 
 /**
  * Show the alert.
- * @param dismissBlock The dismissBlock.
+ * @param completionBlock The dismissBlock.
  **/
 - (void)showWithDismissBlock:(void(^)(MJNotificationViewUserInteraction userInteraction, NSDictionary *userInfo))completionBlock;
 

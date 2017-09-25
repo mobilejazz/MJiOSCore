@@ -69,7 +69,7 @@ extern NSInteger UIMultiToggleControlSelectionNone;
  * @param state The state.
  * @param toggleIndex The index.
  **/
-- (void)setTitle:(NSString*)string forState:(UIControlState)state forToggleAtIndex:(NSInteger)toggleIndex;
+- (void)setTitle:(NSString*)title forState:(UIControlState)state forToggleAtIndex:(NSInteger)toggleIndex;
 
 /**
  * Returns the image for a state for a specific toggle.
@@ -129,7 +129,7 @@ extern NSInteger UIMultiToggleControlSelectionNone;
 
 /**
  * Sets the title color for all toggles for a given state.
- * @param font The color to set.
+ * @param color The color to set.
  * @param state The state.
  **/
 - (void)setTitleColor:(UIColor*)color forState:(UIControlState)state UI_APPEARANCE_SELECTOR;

@@ -119,19 +119,19 @@ FOUNDATION_EXTERN MJCloudinaryImageCropMode MJCloudinaryImageCropModeFromUIViewC
 
 /**
  * Upload an image to cloudinary.
- * @param file The file to upload
+ * @param image The file to upload
  * @param options A dictionary of options.
- * @param NO if the image couldn't be queued to upload, otherwise YES.
+ * @return NO if the image couldn't be queued to upload, otherwise YES.
  **/
 - (BOOL)uploadImage:(id)image options:(NSDictionary*)options;
 
 /**
  * Upload an image to cloudinary.
- * @param file The file to upload
+ * @param image The file to upload
  * @param options A dictionary of options.
  * @param progressBlock The progress block.
  * @param completionBlock The completionBlock
- * @param NO if the image couldn't be queued to upload, otherwise YES.
+ * @return NO if the image couldn't be queued to upload, otherwise YES.
  **/
 - (BOOL)uploadImage:(id)image options:(NSDictionary*)options
            progress:(void (^)(CGFloat progress))progressBlock

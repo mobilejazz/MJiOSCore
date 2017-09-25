@@ -118,6 +118,6 @@ typedef NS_ENUM(NSUInteger, MJPushNotificationDelivery)
  * @param userInfo The remote notification.
  * @param applicationState The application state when the notification was received.
  **/
-- (void)pushNotificationQueue:(MJPushNotificationQueue*)queue didReceiveNotification:(NSDictionary*)userInfo inApplicationState:(UIApplicationState)appplicationState;
+- (void)pushNotificationQueue:(MJPushNotificationQueue*)queue didReceiveNotification:(NSDictionary*)userInfo inApplicationState:(UIApplicationState)applicationState;
 
 @end
