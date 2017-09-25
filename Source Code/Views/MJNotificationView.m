@@ -169,7 +169,7 @@ static NSString *_lastKey = nil;
     
     NSString *key = _text;
     
-    [self.class mjz_enqueueWithKey:key block:^(void (^nextBlock)()) {
+    [self.class mjz_enqueueWithKey:key block:^(void (^nextBlock)(void)) {
         
         // Retrieving the displaying view
         UIView *displayView = [UIApplication sharedApplication].keyWindow;
@@ -250,7 +250,7 @@ static NSString *_lastKey = nil;
     }
 }
 
-- (void)mjz_displayOnView:(UIView*)view completionBlock:(void(^)())completionBlock
+- (void)mjz_displayOnView:(UIView*)view completionBlock:(void(^)(void))completionBlock
 {
     CGRect bounds = self.bounds;
     
@@ -278,7 +278,7 @@ static NSString *_lastKey = nil;
     }];
 }
 
-- (void)mjz_hideWithCompletionBlock:(void(^)())completionBlock
+- (void)mjz_hideWithCompletionBlock:(void(^)(void))completionBlock
 {
     CGRect bounds = self.bounds;
     
@@ -299,12 +299,12 @@ static NSString *_lastKey = nil;
     }];
 }
 
-+ (void)mjz_enqueueBlock:(void (^)(void (^nextBlock)()))block
++ (void)mjz_enqueueBlock:(void (^)(void (^nextBlock)(void)))block
 {
     [self mjz_enqueueWithKey:nil block:block];
 }
 
-+ (void)mjz_enqueueWithKey:(NSString*)key block:(void (^)(void (^nextBlock)()))block
++ (void)mjz_enqueueWithKey:(NSString*)key block:(void (^)(void (^nextBlock)(void)))block
 {
     if (_lastKey && [_lastKey isEqualToString:key])
     {

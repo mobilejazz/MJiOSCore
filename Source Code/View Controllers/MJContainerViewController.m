@@ -130,7 +130,7 @@
     [self setViewController:viewController animation:animation completionBlock:nil];
 }
 
-- (void)setViewController:(UIViewController *)viewController animation:(MJContainerAnimation)animation completionBlock:(void (^)())completionBlock
+- (void)setViewController:(UIViewController *)viewController animation:(MJContainerAnimation)animation completionBlock:(void (^)(void))completionBlock
 {
     UIViewController *oldVC = _viewController;
     UIViewController *newVC = viewController;
@@ -141,7 +141,7 @@
     {
         BOOL inHerarchy = YES;
         
-        void (^ beforeAnimation)() = ^{
+        void (^ beforeAnimation)(void) = ^{
             if (inHerarchy)
             {
                 [oldVC willMoveToParentViewController:nil];
@@ -153,7 +153,7 @@
             }
         };
         
-        void (^ afterAnimation)() = ^{
+        void (^ afterAnimation)(void) = ^{
             if (inHerarchy)
             {
                 [oldVC removeFromParentViewController];

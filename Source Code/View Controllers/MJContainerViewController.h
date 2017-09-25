@@ -56,7 +56,7 @@ typedef NS_ENUM(NSUInteger, MJContainerAnimation)
  * @param animation The animation.
  * @param completionBlock The completion block of the animation.
  **/
-- (void)setViewController:(UIViewController *)viewController animation:(MJContainerAnimation)animation completionBlock:(void (^)())completionBlock;
+- (void)setViewController:(UIViewController *)viewController animation:(MJContainerAnimation)animation completionBlock:(void (^)(void))completionBlock;
 
 @end
 
