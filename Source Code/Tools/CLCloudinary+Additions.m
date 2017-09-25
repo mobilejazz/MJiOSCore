@@ -69,7 +69,7 @@ static CLCloudinary *_defaultCloudinary = nil;
 
 - (BOOL)isSubdomainsEnabled
 {
-    return self.config[@"cdn_subdomain"];
+    return self.config[@"cdn_subdomain"] != nil;
 }
 
 #pragma mark Public Methods
