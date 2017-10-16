@@ -44,11 +44,17 @@
 {
     [super viewDidLoad];
     
-    UIView *subview = _viewController.view;
-    subview.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    subview.frame = self.view.bounds;
-    
-    [self.view addSubview:subview];
+    // Add ViewController to the hierchy in case it wasn't already added
+    if (![self.childViewControllers containsObject:_viewController])
+    {
+        UIView *subview = _viewController.view;
+        subview.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        subview.frame = self.view.bounds;
+        
+        [self addChildViewController:_viewController];
+        [self.view addSubview:subview];
+        [_viewController didMoveToParentViewController:self];
+    }
 }
 
 - (void)viewWillLayoutSubviews
