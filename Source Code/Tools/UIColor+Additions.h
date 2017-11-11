@@ -29,7 +29,7 @@
  **/
 typedef unsigned int ADDColorType;
 
-/**/Users/martinhj/Documents/MobileJazz/OpenSource/MJiOSCore/MJiOSCore.podspec.json
+/**
  * Category on `UIColor` that add convenience methods to manipulate colors.
  **/
 @interface UIColor (Additions)
