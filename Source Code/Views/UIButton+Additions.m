@@ -16,7 +16,7 @@
 
 
 #import "UIButton+Additions.h"
-#import <UIImage+Additions/UIImage+Additions.h>
+#import "UIImage+Additions.h"
 
 @implementation UIButton (Additions)
 

@@ -1,1 +1,0 @@
-../../../Cloudinary/Cloudinary/NSString+CLURLEncoding.h

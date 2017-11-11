@@ -13,6 +13,8 @@
 #import "MJCloudinaryInterface.h"
 #import "UIImageView+MJCloudinaryInterface.h"
 #import "MJPushNotificationQueue.h"
+#import "UIColor+Additions.h"
+#import "UIImage+Additions.h"
 
 // Views
 #import "MJTextViewCell.h"

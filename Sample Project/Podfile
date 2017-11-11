@@ -1,11 +1,22 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
-# Uncomment this line if you're using Swift
-# use_frameworks!
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-inhibit_all_warnings!
+target 'MJiOSCore' do
+  use_frameworks!
 
-pod 'Haneke', '~> 1.0'
-pod 'Cloudinary', '~> 1.0'
-pod 'UIImage+Additions'
-pod 'UIColor+Additions'
+  # Pods for MJiOSCore
+
+  pod 'Haneke', '~> 1.0'
+  pod 'Cloudinary', '~> 1.0'
+
+  target 'MJiOSCoreTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MJiOSCoreUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
