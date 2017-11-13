@@ -86,7 +86,7 @@
     [super viewWillDisappear:animated];
     
     [self mjz_delay:^{
-        [_presenter viewWillAppear:animated];
+        [_presenter viewWillDisappear:animated];
     }];
 }
 

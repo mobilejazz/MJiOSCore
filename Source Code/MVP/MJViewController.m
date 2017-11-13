@@ -75,7 +75,7 @@
     [super viewWillDisappear:animated];
     
     [self mjz_delayWithPresenter:_presenter block:^(MJViewControllerPresenter *presenter) {
-        [presenter viewWillAppear:animated];
+        [presenter viewWillDisappear:animated];
     }];
 }
 
