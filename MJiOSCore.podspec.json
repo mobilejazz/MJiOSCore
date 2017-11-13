@@ -35,11 +35,11 @@
     },
     {
       "name": "ViewControllers",
-      "source_files": "Source Code/View Controllers/*.{h,m}",
+      "source_files": "Source Code/View Controllers/*.{h,m}"
     },
     {
       "name": "Views",
-      "source_files": "Source Code/Views/*.{h,m}",
+      "source_files": "Source Code/Views/*.{h,m}"
     }
   ]
 }
