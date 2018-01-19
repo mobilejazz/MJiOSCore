@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Common set of reusable classes, categories and definitions for iOS.
                        DESC
 
-  s.homepage         = 'https://bitbucket.org/mobilejazz/mjioscore'
+  s.homepage         = 'https://github.com/mobilejazz/MJiOSCore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'Mobile Jazz' => 'info@mobilejazz.com' }
-  s.source           = { :git => 'https://bitbucket.org/mobilejazz/mjioscore.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mobilejazz/MJiOSCore.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mobilejazzcom'
 
   s.ios.deployment_target = '8.0'
