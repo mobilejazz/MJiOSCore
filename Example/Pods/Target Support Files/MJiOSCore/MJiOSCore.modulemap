@@ -1,0 +1,6 @@
+framework module MJiOSCore {
+  umbrella header "MJiOSCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module Pods_MJiOSCore {
-  umbrella header "Pods-MJiOSCore-umbrella.h"
-
-  export *
-  module * { export * }
-}

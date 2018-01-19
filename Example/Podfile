@@ -1,0 +1,14 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'MJiOSCore_Example' do
+  pod 'MJiOSCore', :path => '../'
+  pod 'MJiOSCore/Cloudinary', :path => '../'
+  pod 'MJiOSCore/CloudinaryHaneke', :path => '../'
+
+  target 'MJiOSCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

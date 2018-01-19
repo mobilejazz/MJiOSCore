@@ -1,46 +1,47 @@
-![Mobile Jazz Vastra](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/banners/mobile-jazz-ios-core.jpg)
+# MJiOSCore
 
-# ![Mobile Jazz Badge](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/icons/mj-40x40.png) MJiOSCore
+<!--- [![CI Status](http://img.shields.io/travis/Joan Martin/MJiOSCore.svg?style=flat)](https://travis-ci.org/Joan Martin/MJiOSCore) -->
+[![Version](https://img.shields.io/cocoapods/v/MJiOSCore.svg?style=flat)](http://cocoapods.org/pods/MJiOSCore)
+[![License](https://img.shields.io/cocoapods/l/MJiOSCore.svg?style=flat)](http://cocoapods.org/pods/MJiOSCore)
+[![Platform](https://img.shields.io/cocoapods/p/MJiOSCore.svg?style=flat)](http://cocoapods.org/pods/MJiOSCore)
 
-Several utilities that depend on UIKit, meant for iOS only projects
 
-## How to 
+## Installation
 
-To install the MJ iOS Core library, just paste the following line in your podfile:
-```
-pod 'mj-ios-core', :git => 'https://bitbucket.org/mobilejazz/mj-ios-core.git', :tag => '1.0.0'
-```
+MJiOSCore is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-We also have some subpods that can be installed like this:
 ```ruby
-pod 'mj-ios-core/Tools'
-pod 'mj-ios-core/ViewControllers'
-pod 'mj-ios-core/Views'
+pod 'MJiOSCore'
 ```
 
-## Dependencies
-- Haneke
-- Cloudinary
-- UIImage+Additions
-- UIColor+Additions
+Available Subspecs:
 
-## Included classes
-### Tools
-- MJCloudinaryInterface
-- UIImageView+MJCloudinaryInterface
-- MJPushNotificationQueue
+- MJiOSCore/Tools
+- MJiOSCore/MVP
+- MJiOSCore/ViewControllers
+- MJiOSCore/Views
+- MJiOSCore/Cloudinary (Dependency on Cloudinary 1.0)
+- MJiOSCore/CloudinaryHaneke (Dependency on Haneke 1.0 and Cloudinary 1.0)
 
-### Views
-- MJTextViewCell
-- MJMultiToggleControl
-- MJNotificationView
-- UIBarButtonItem+Additions
-- UIResponder+Additions
-- UIView+Additions
-- UIActionSheet+Blocks
-- UIAlertView+Blocks
+Note that the default pod MJiOSCore has as default subspecs Tools, MVP, ViewControllers and Views. To install the Cloudinary and CloudinaryHaneke subspecs you must reference directly as:
 
-### View Controllers
-- MJContainerViewController
-- MJTableViewController
-- MJPDFViewerController
+```ruby
+pod 'MJiOSCore/Cloudinary'
+```
+and/or
+```ruby
+pod 'MJiOSCore/CloudinaryHaneke'
+```
+
+### Example Project
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Author
+
+Mobile Jazz, info@mobilejazz.com
+
+## License
+
+MJiOSCore is available under the Apache 2 license. See the LICENSE file for more info.

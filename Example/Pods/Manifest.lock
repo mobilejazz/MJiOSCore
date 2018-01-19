@@ -1,0 +1,39 @@
+PODS:
+  - Cloudinary (1.0.15)
+  - Haneke (1.0.2)
+  - MJiOSCore (1.5.0):
+    - MJiOSCore/MVP (= 1.5.0)
+    - MJiOSCore/Tools (= 1.5.0)
+    - MJiOSCore/ViewControllers (= 1.5.0)
+    - MJiOSCore/Views (= 1.5.0)
+  - MJiOSCore/Cloudinary (1.5.0):
+    - Cloudinary (~> 1.0)
+    - MJiOSCore/Tools
+  - MJiOSCore/CloudinaryHaneke (1.5.0):
+    - Haneke (~> 1.0)
+    - MJiOSCore/Cloudinary
+  - MJiOSCore/MVP (1.5.0):
+    - MJiOSCore/Tools
+  - MJiOSCore/Tools (1.5.0)
+  - MJiOSCore/ViewControllers (1.5.0):
+    - MJiOSCore/Tools
+  - MJiOSCore/Views (1.5.0):
+    - MJiOSCore/Tools
+
+DEPENDENCIES:
+  - MJiOSCore (from `../`)
+  - MJiOSCore/Cloudinary (from `../`)
+  - MJiOSCore/CloudinaryHaneke (from `../`)
+
+EXTERNAL SOURCES:
+  MJiOSCore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  MJiOSCore: 44488b4dd8edfd905f7091ee3b38388a96b97bbe
+
+PODFILE CHECKSUM: 46b30bccb117df7c23c062f29f14572c32987b88
+
+COCOAPODS: 1.3.1
