@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A6ADBB202C804E008A54C8 /* UIDevice+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A6ADB9202C804E008A54C8 /* UIDevice+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A6ADBC202C804E008A54C8 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6ADBA202C804E008A54C8 /* UIDevice+Additions.m */; };
 		027043AE210EF10A365B63F92E09B1E9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5C2EA2F6B6BF55DAAA2DB0EF349E20 /* ImageIO.framework */; };
 		04699951BEAF022FC8D0054C14C7EFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F13B6C64D6AFE9D6C1033B31ACC1BC /* Foundation.framework */; };
 		04968CAD866D3846C8A85CEB9E96E27A /* MJiOSCoreCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 286584F7421B8B8ADE0D34B7A9C3F75F /* MJiOSCoreCloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -157,6 +159,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A6ADB9202C804E008A54C8 /* UIDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Additions.h"; path = "MJiOSCore/Classes/Tools/UIDevice+Additions.h"; sourceTree = "<group>"; };
+		00A6ADBA202C804E008A54C8 /* UIDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Additions.m"; path = "MJiOSCore/Classes/Tools/UIDevice+Additions.m"; sourceTree = "<group>"; };
 		0CE2BE8A2D1A498A791379BAFC4FC3D1 /* CLTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLTransformation.h; path = Cloudinary/CLTransformation.h; sourceTree = "<group>"; };
 		0DA4461A47987CFFF85F8645106746CC /* CLUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUploader.m; path = Cloudinary/CLUploader.m; sourceTree = "<group>"; };
 		0DA7A314758939F1A8F6A3CCD77C6907 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -174,7 +178,7 @@
 		220CBAEFDE30FF8F6CF16AA9556343BD /* Pods-MJiOSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJiOSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2548323C331729FD20D356188A6E1E78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26325E5C265B6BB6BD4D5843CB8659C0 /* UIButton+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Haneke.h"; path = "Haneke/UIButton+Haneke.h"; sourceTree = "<group>"; };
-		268331A9D5130DC846CB57C63844E00B /* Cloudinary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cloudinary.modulemap; sourceTree = "<group>"; };
+		268331A9D5130DC846CB57C63844E00B /* Cloudinary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cloudinary.modulemap; sourceTree = "<group>"; };
 		286584F7421B8B8ADE0D34B7A9C3F75F /* MJiOSCoreCloudinary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreCloudinary.h; path = MJiOSCore/Classes/Cloudinary/MJiOSCoreCloudinary.h; sourceTree = "<group>"; };
 		28CDAA0BD6DFB06786B186016ABF7667 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
 		29CD08B00B79DB6DA3E66A6FD86AEADD /* Haneke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haneke-dummy.m"; sourceTree = "<group>"; };
@@ -190,9 +194,9 @@
 		3A21B740375FA4A48B704F23EAF334E4 /* MJiOSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJiOSCore-umbrella.h"; sourceTree = "<group>"; };
 		3B33C21037D464336857819AD0445D0F /* MJContainedTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJContainedTableViewController.h; path = MJiOSCore/Classes/ViewControllers/MJContainedTableViewController.h; sourceTree = "<group>"; };
 		3D03022F602A7CEF33F014AA006732D5 /* NSString+CLURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CLURLEncoding.m"; path = "Cloudinary/NSString+CLURLEncoding.m"; sourceTree = "<group>"; };
-		3FFB3126F4C8E3F0938E4312EEB38D5C /* Pods-MJiOSCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MJiOSCore_Tests.modulemap"; sourceTree = "<group>"; };
+		3FFB3126F4C8E3F0938E4312EEB38D5C /* Pods-MJiOSCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJiOSCore_Tests.modulemap"; sourceTree = "<group>"; };
 		4189F229763F0D523FC6DE42994DA564 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+Blocks.m"; path = "MJiOSCore/Classes/Views/UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
-		418E8F36ADEF7DACAEEF4D8141AB6890 /* Haneke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Haneke.modulemap; sourceTree = "<group>"; };
+		418E8F36ADEF7DACAEEF4D8141AB6890 /* Haneke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Haneke.modulemap; sourceTree = "<group>"; };
 		473B4B87321E2171F67B87A71EABE483 /* NSDictionary+CLUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CLUtilities.m"; path = "Cloudinary/NSDictionary+CLUtilities.m"; sourceTree = "<group>"; };
 		4896224887B05F70F480298E20963F0E /* MJMultiToggleControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJMultiToggleControl.h; path = MJiOSCore/Classes/Views/MJMultiToggleControl.h; sourceTree = "<group>"; };
 		49C678C7E51B30D2D908306BB9E23870 /* Haneke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-umbrella.h"; sourceTree = "<group>"; };
@@ -201,13 +205,13 @@
 		4DABE6A10874EDB6A1D8954C38E5DD61 /* Pods-MJiOSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJiOSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		51A50814AC04F4D2D2FE694CE63EAE74 /* HNKNetworkFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKNetworkFetcher.h; path = Haneke/HNKNetworkFetcher.h; sourceTree = "<group>"; };
 		53B10C4A8EA4D5DFC37EEB3C73E8DEBF /* Pods-MJiOSCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJiOSCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		53C87ECB7F3585B62E67ED05B83589B2 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haneke.framework; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C87ECB7F3585B62E67ED05B83589B2 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5886999CCFC884D7708858D9F596D6B8 /* UIImageView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Haneke.h"; path = "Haneke/UIImageView+Haneke.h"; sourceTree = "<group>"; };
 		5A24D7B15BB1AC35FFD20168C893CFB9 /* UIImageView+MJCloudinaryInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+MJCloudinaryInterface.h"; path = "MJiOSCore/Classes/Cloudinary/UIImageView+MJCloudinaryInterface.h"; sourceTree = "<group>"; };
 		5ABCF65873B964DEC99CF58C85BD94F9 /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D020FCC3A7150990E4FCED2C3995647 /* MJContainedTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJContainedTableViewController.m; path = MJiOSCore/Classes/ViewControllers/MJContainedTableViewController.m; sourceTree = "<group>"; };
 		5D7E406B46AA8C008170079323A50618 /* UIBarButtonItem+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Additions.m"; path = "MJiOSCore/Classes/Views/UIBarButtonItem+Additions.m"; sourceTree = "<group>"; };
-		5EEC5E40D753F2C7A0064FB66419DFD4 /* Pods_MJiOSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJiOSCore_Tests.framework; path = "Pods-MJiOSCore_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEC5E40D753F2C7A0064FB66419DFD4 /* Pods_MJiOSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJiOSCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F591CBCCC20FF13F36243E129BD0CE2 /* Pods-MJiOSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJiOSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		608AB53C751C40917CCC08E42874005A /* MJiOSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJiOSCore.xcconfig; sourceTree = "<group>"; };
 		621E853E4CC6560029AE8CF252FC6FA6 /* NSString+CLURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CLURLEncoding.h"; path = "Cloudinary/NSString+CLURLEncoding.h"; sourceTree = "<group>"; };
@@ -221,7 +225,7 @@
 		6DCF4C6362C547FB0E96F8A4CA00FAEC /* CLLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLLayer.m; path = Cloudinary/CLLayer.m; sourceTree = "<group>"; };
 		6EB6E3237A0B4EEE579D5B4311A146A3 /* CLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLLayer.h; path = Cloudinary/CLLayer.h; sourceTree = "<group>"; };
 		6F5B8A50326A0F290EEF8F5B7ACF6972 /* MJiOSCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCore.h; path = MJiOSCore/Classes/MJiOSCore.h; sourceTree = "<group>"; };
-		6F7531F128881EB8179B64000AF11EBA /* MJiOSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJiOSCore.modulemap; sourceTree = "<group>"; };
+		6F7531F128881EB8179B64000AF11EBA /* MJiOSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJiOSCore.modulemap; sourceTree = "<group>"; };
 		6FC6E45D80F5194BC0EB197453965841 /* MJPDFViewerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPDFViewerDataSource.m; path = MJiOSCore/Classes/ViewControllers/MJPDFViewerDataSource.m; sourceTree = "<group>"; };
 		71219E8BD71EAF47405B68BD35242B87 /* MJPDFViewerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPDFViewerDataSource.h; path = MJiOSCore/Classes/ViewControllers/MJPDFViewerDataSource.h; sourceTree = "<group>"; };
 		74CD08838097FE55DED4BBBC527D02ED /* MJNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJNotificationView.h; path = MJiOSCore/Classes/Views/MJNotificationView.h; sourceTree = "<group>"; };
@@ -232,14 +236,14 @@
 		853838898898C691778D6A7B4EEA1FF6 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKNetworkFetcher.m; path = Haneke/HNKNetworkFetcher.m; sourceTree = "<group>"; };
 		8743C98D941A4244CC14DCFE7E56EC25 /* UIButton+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Additions.m"; path = "MJiOSCore/Classes/Views/UIButton+Additions.m"; sourceTree = "<group>"; };
 		88F88FD3689C8FA284D41C97C3359AC6 /* HNKDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskCache.h; path = Haneke/HNKDiskCache.h; sourceTree = "<group>"; };
-		88FDDBC738D90DD02A40191801DEA61A /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cloudinary.framework; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FDDBC738D90DD02A40191801DEA61A /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A11342F93E782041B09C4A9F3E8A066 /* UIView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Haneke.h"; path = "Haneke/UIView+Haneke.h"; sourceTree = "<group>"; };
 		8A1C2F76D1618DC62BA339729816F49C /* UIView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "MJiOSCore/Classes/Views/UIView+Additions.m"; sourceTree = "<group>"; };
 		8C350A3CAD6C6D0FC55B82F1FD421560 /* MJiOSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJiOSCore-dummy.m"; sourceTree = "<group>"; };
 		8DFD2325114D9B7657AB61FAA1BCE396 /* Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = Haneke/Haneke.h; sourceTree = "<group>"; };
 		90F0682C7CD0E600B200E6771DA7B951 /* MJiOSCoreCloudinaryHaneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreCloudinaryHaneke.h; path = MJiOSCore/Classes/CloudinaryHaneke/MJiOSCoreCloudinaryHaneke.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97FF59B9DA3347716D134B134AA80C4E /* MJiOSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJiOSCore.framework; path = MJiOSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97FF59B9DA3347716D134B134AA80C4E /* MJiOSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJiOSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C33B4922176E64CB79C2CA51869F4 /* UIResponder+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Additions.h"; path = "MJiOSCore/Classes/Views/UIResponder+Additions.h"; sourceTree = "<group>"; };
 		9BD126469C3DD7EFB8AA0FF06C677DE3 /* CLCloudinary+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLCloudinary+Additions.h"; path = "MJiOSCore/Classes/Cloudinary/CLCloudinary+Additions.h"; sourceTree = "<group>"; };
 		9BEFC8CEC95E2506550E96CA29889955 /* Cloudinary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cloudinary-prefix.pch"; sourceTree = "<group>"; };
@@ -252,7 +256,7 @@
 		A8E59D89FDAAF441D47C0B2543E5F8BA /* HNKDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskCache.m; path = Haneke/HNKDiskCache.m; sourceTree = "<group>"; };
 		A99F8A15DB52B85B6FC68325FD0A154C /* MJiOSCoreViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreViews.h; path = MJiOSCore/Classes/Views/MJiOSCoreViews.h; sourceTree = "<group>"; };
 		ACA0BF5D0C9AAB15E9B32AEE7859A57E /* Pods-MJiOSCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJiOSCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ACF32EDD98B79B08EEEE31481BD66FEB /* Pods_MJiOSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJiOSCore_Example.framework; path = "Pods-MJiOSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF32EDD98B79B08EEEE31481BD66FEB /* Pods_MJiOSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJiOSCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0837D8B2819F26D07D77D2AD7E6C50 /* CLEagerTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLEagerTransformation.h; path = Cloudinary/CLEagerTransformation.h; sourceTree = "<group>"; };
 		B3CA8C5991EF879B8588B7538393F718 /* HNKCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKCache.m; path = Haneke/HNKCache.m; sourceTree = "<group>"; };
 		B76483EB0416E329C36858F548804B4A /* Pods-MJiOSCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJiOSCore_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -286,7 +290,7 @@
 		EA4DF5A9C55336B93ECC6CEF08F84999 /* Haneke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haneke.xcconfig; sourceTree = "<group>"; };
 		EA5A3D1640B5E2E2E18876266C0EE00C /* CLUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUploader.h; path = Cloudinary/CLUploader.h; sourceTree = "<group>"; };
 		EB7D0AAEBB513957992833507F141F12 /* MJMultiToggleControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJMultiToggleControl.m; path = MJiOSCore/Classes/Views/MJMultiToggleControl.m; sourceTree = "<group>"; };
-		EBB98FCDFD53857B795861816F55EA7D /* Pods-MJiOSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MJiOSCore_Example.modulemap"; sourceTree = "<group>"; };
+		EBB98FCDFD53857B795861816F55EA7D /* Pods-MJiOSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJiOSCore_Example.modulemap"; sourceTree = "<group>"; };
 		ED84A5D7C35B039F5DE4C3AD5A76D594 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+Blocks.h"; path = "MJiOSCore/Classes/Views/UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
 		EE3743654BF06454516A6EF576D94994 /* MJCloudinaryInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJCloudinaryInterface.h; path = MJiOSCore/Classes/Cloudinary/MJCloudinaryInterface.h; sourceTree = "<group>"; };
 		F35579E17912E6078FB3E30E0FF91602 /* MJiOSCoreMVP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreMVP.h; path = MJiOSCore/Classes/MVP/MJiOSCoreMVP.h; sourceTree = "<group>"; };
@@ -405,7 +409,6 @@
 				3D03022F602A7CEF33F014AA006732D5 /* NSString+CLURLEncoding.m */,
 				B673785069AF79C3425FFD312F6E02B6 /* Support Files */,
 			);
-			name = Cloudinary;
 			path = Cloudinary;
 			sourceTree = "<group>";
 		};
@@ -469,7 +472,6 @@
 				4C4C4E571BD2BAF523E78246A9F1510B /* UIView+Haneke.m */,
 				84589398E8230D1E234419CF25FF1B08 /* Support Files */,
 			);
-			name = Haneke;
 			path = Haneke;
 			sourceTree = "<group>";
 		};
@@ -501,6 +503,8 @@
 				330CF08EAEBDFAC1D71580BAA47AF843 /* UIColor+Additions.m */,
 				BD4740B3EA83EDD14D3051A05E8C1D67 /* UIImage+Additions.h */,
 				1D9BB342DC2E751F1E145B1CA46557C8 /* UIImage+Additions.m */,
+				00A6ADB9202C804E008A54C8 /* UIDevice+Additions.h */,
+				00A6ADBA202C804E008A54C8 /* UIDevice+Additions.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -693,6 +697,7 @@
 				4749AA66A64496EE96FA9AADD4E6644D /* MJiOSCore.h in Headers */,
 				04968CAD866D3846C8A85CEB9E96E27A /* MJiOSCoreCloudinary.h in Headers */,
 				23674997C29A34323C4B64B30DCABEA3 /* MJiOSCoreCloudinaryHaneke.h in Headers */,
+				00A6ADBB202C804E008A54C8 /* UIDevice+Additions.h in Headers */,
 				D9DEE981251C6EB8654560A0C966BB7F /* MJiOSCoreMVP.h in Headers */,
 				850F68D3CCD3FEDF7C0C8A0B76DB0205 /* MJiOSCoreTools.h in Headers */,
 				F3B660E39F12F16FDF6373534B04A4A4 /* MJiOSCoreViewControllers.h in Headers */,
@@ -884,6 +889,7 @@
 				EB5EBDC52BFC2719C46F9CB5C3A0B249 /* CLTransformation+Additions.m in Sources */,
 				0E7E0383B594422A750CFFF6677102BE /* CLUploader+Additions.m in Sources */,
 				7C0770329CCA499CA5CF1E1EF3C11CF2 /* MJCloudinaryInterface.m in Sources */,
+				00A6ADBC202C804E008A54C8 /* UIDevice+Additions.m in Sources */,
 				929D125AC5078E3E534E70D6DD497375 /* MJContainedTableViewController.m in Sources */,
 				87B7019A12CB068FAC184EFF6CA2D2DB /* MJContainerViewController.m in Sources */,
 				6B716D3292887321564B7B7490B998D8 /* MJiOSCore-dummy.m in Sources */,

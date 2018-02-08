@@ -20,6 +20,7 @@
 #import "MJPushNotificationQueue.h"
 #import "UIColor+Additions.h"
 #import "UIImage+Additions.h"
+#import "UIDevice+Additions.h"
 
 #endif /* MJiOSCoreTools_h */
 
