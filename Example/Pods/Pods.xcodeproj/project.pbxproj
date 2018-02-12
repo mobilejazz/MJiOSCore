@@ -59,6 +59,8 @@
 		7E76591BF442DA469BF67BD2C4709FCE /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0837D8B2819F26D07D77D2AD7E6C50 /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81C997A38CAC9ADB37E36DB7BF8619FA /* MJPDFViewerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC6E45D80F5194BC0EB197453965841 /* MJPDFViewerDataSource.m */; };
 		83033B4410531030274DDC998E4A637F /* HNKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E59D89FDAAF441D47C0B2543E5F8BA /* HNKDiskCache.m */; };
+		8376E8F42031B995001D6E0A /* UIView+SeparatorSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = 8376E8F22031B995001D6E0A /* UIView+SeparatorSubview.h */; };
+		8376E8F52031B995001D6E0A /* UIView+SeparatorSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376E8F32031B995001D6E0A /* UIView+SeparatorSubview.m */; };
 		83F60DDC2E78D6D5593E517709CE90AF /* MJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7C6390891185DAB2FCC6D4DA64B2DD /* MJNotificationView.m */; };
 		850F68D3CCD3FEDF7C0C8A0B76DB0205 /* MJiOSCoreTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7CF711E9B2995EE874C2DADFDEBC20 /* MJiOSCoreTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87B7019A12CB068FAC184EFF6CA2D2DB /* MJContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FC3B9A91A8E3637A70E21E0D67E1D1 /* MJContainerViewController.m */; };
@@ -232,6 +234,8 @@
 		74DDBC7CD8D4F56BE39C5381B17B8EC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABE6C6C5CB51652D0F40AD6D208958A /* MJPDFViewerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPDFViewerViewController.h; path = MJiOSCore/Classes/ViewControllers/MJPDFViewerViewController.h; sourceTree = "<group>"; };
 		7AC25A4CD7C05D1F54BCEBB36BA4862F /* Cloudinary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cloudinary-dummy.m"; sourceTree = "<group>"; };
+		8376E8F22031B995001D6E0A /* UIView+SeparatorSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SeparatorSubview.h"; sourceTree = "<group>"; };
+		8376E8F32031B995001D6E0A /* UIView+SeparatorSubview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SeparatorSubview.m"; sourceTree = "<group>"; };
 		84A8A7B5DA946F333B76458523E0284E /* UIView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "MJiOSCore/Classes/Views/UIView+Additions.h"; sourceTree = "<group>"; };
 		853838898898C691778D6A7B4EEA1FF6 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKNetworkFetcher.m; path = Haneke/HNKNetworkFetcher.m; sourceTree = "<group>"; };
 		8743C98D941A4244CC14DCFE7E56EC25 /* UIButton+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Additions.m"; path = "MJiOSCore/Classes/Views/UIButton+Additions.m"; sourceTree = "<group>"; };
@@ -642,6 +646,8 @@
 				C426C9D473E43839FED5B5F499DFBDC7 /* UIResponder+Addtions.m */,
 				84A8A7B5DA946F333B76458523E0284E /* UIView+Additions.h */,
 				8A1C2F76D1618DC62BA339729816F49C /* UIView+Additions.m */,
+				8376E8F22031B995001D6E0A /* UIView+SeparatorSubview.h */,
+				8376E8F32031B995001D6E0A /* UIView+SeparatorSubview.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -713,6 +719,7 @@
 				D300C2CBB794011964CFD351E8B7D119 /* MJViewControllerPresenter.h in Headers */,
 				E67A8AA7FB2F763FE91507F4B4C4EF78 /* UIActionSheet+Blocks.h in Headers */,
 				CC1316CF3AF20834E12B3BF08B333EE8 /* UIAlertView+Blocks.h in Headers */,
+				8376E8F42031B995001D6E0A /* UIView+SeparatorSubview.h in Headers */,
 				CE0D9258962FF6F943ECEA8A4D080F04 /* UIBarButtonItem+Additions.h in Headers */,
 				40EB405A1ADC79D05531438A4C8B5566 /* UIButton+Additions.h in Headers */,
 				9177A860CD9778E2397E31BEE5586E28 /* UIColor+Additions.h in Headers */,
@@ -891,6 +898,7 @@
 				7C0770329CCA499CA5CF1E1EF3C11CF2 /* MJCloudinaryInterface.m in Sources */,
 				00A6ADBC202C804E008A54C8 /* UIDevice+Additions.m in Sources */,
 				929D125AC5078E3E534E70D6DD497375 /* MJContainedTableViewController.m in Sources */,
+				8376E8F52031B995001D6E0A /* UIView+SeparatorSubview.m in Sources */,
 				87B7019A12CB068FAC184EFF6CA2D2DB /* MJContainerViewController.m in Sources */,
 				6B716D3292887321564B7B7490B998D8 /* MJiOSCore-dummy.m in Sources */,
 				435ED7CE74D5D412C1B7EDFAE9A14EFB /* MJMultiToggleControl.m in Sources */,
