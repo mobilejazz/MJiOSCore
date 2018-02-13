@@ -26,6 +26,7 @@
 #import "MJiOSCoreTools.h"
 #import "MJPushNotificationQueue.h"
 #import "UIColor+Additions.h"
+#import "UIDevice+Additions.h"
 #import "UIImage+Additions.h"
 #import "MJContainedTableViewController.h"
 #import "MJContainerViewController.h"
@@ -42,6 +43,7 @@
 #import "UIButton+Additions.h"
 #import "UIResponder+Additions.h"
 #import "UIView+Additions.h"
+#import "UIView+SeparatorSubview.h"
 
 FOUNDATION_EXPORT double MJiOSCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char MJiOSCoreVersionString[];
