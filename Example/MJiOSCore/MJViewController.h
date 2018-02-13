@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface MJViewController : UIViewController
+@interface MJBViewController : UIViewController
 
 @end
