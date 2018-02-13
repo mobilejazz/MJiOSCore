@@ -4,7 +4,7 @@
 
 #pragma mark - Public
 
-- (UIView *)add_separatorViewAtPosition:(NTSeparatorPosition)position
+- (UIView *)add_separatorViewAtPosition:(MJSeparatorPosition)position
                               withColor:(UIColor *)color
                               thickness:(CGFloat)thickness
                                  margin:(CGFloat)margin
@@ -13,16 +13,16 @@
     [self addSubview:separatorView];
     switch (position)
     {
-        case NTSeparatorPositionLeading:
+        case MJSeparatorPositionLeading:
             [self layoutLeadingSeparatorView:separatorView width:thickness margin:margin];
             break;
-        case NTSeparatorPositionTop:
+        case MJSeparatorPositionTop:
             [self layoutTopSeparatorView:separatorView height:thickness margin:margin];
             break;
-        case NTSeparatorPositionTrailing:
+        case MJSeparatorPositionTrailing:
             [self layoutTrailingSeparatorView:separatorView width:thickness margin:margin];
             break;
-        case NTSeparatorPositionBottom:
+        case MJSeparatorPositionBottom:
             [self layoutBottomSeparatorView:separatorView height:thickness margin:margin];
             break;
     }

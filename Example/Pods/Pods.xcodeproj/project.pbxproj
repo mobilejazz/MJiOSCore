@@ -179,7 +179,7 @@
 		16F13B6C64D6AFE9D6C1033B31ACC1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		17D412156E31043DE6D6ECD4BBF855B3 /* Cloudinary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cloudinary-prefix.pch"; sourceTree = "<group>"; };
 		1B72E77DECBD4585947757EC3C2BEA61 /* HNKSimpleFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKSimpleFetcher.m; path = Haneke/HNKSimpleFetcher.m; sourceTree = "<group>"; };
-		1B93928FC11419F757F80A58B20DD5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1B93928FC11419F757F80A58B20DD5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1BA6364E4EBBF56DF560D3824AF701B7 /* MJNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJNotificationView.h; path = MJiOSCore/Classes/Views/MJNotificationView.h; sourceTree = "<group>"; };
 		1DEBEDB5E8CE7CFACF777EFA4BE770D9 /* Haneke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-umbrella.h"; sourceTree = "<group>"; };
 		1EF12DAC246A3E24633D9307E603245A /* Pods-MJiOSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJiOSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,14 +210,14 @@
 		529D685FC48211193601A9E0EEE8EE3E /* MJContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJContainerViewController.m; path = MJiOSCore/Classes/ViewControllers/MJContainerViewController.m; sourceTree = "<group>"; };
 		52BFAD2DAB119E9C3DA259CB23C8C6EC /* MJContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJContainerViewController.h; path = MJiOSCore/Classes/ViewControllers/MJContainerViewController.h; sourceTree = "<group>"; };
 		53858C92B133BA2B5CF003A1AA39F421 /* MJiOSCoreMVP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreMVP.h; path = MJiOSCore/Classes/MVP/MJiOSCoreMVP.h; sourceTree = "<group>"; };
-		53C87ECB7F3585B62E67ED05B83589B2 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C87ECB7F3585B62E67ED05B83589B2 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haneke.framework; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5696843C63FD399102763D2BCBD37B29 /* MJNotificationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJNotificationView.m; path = MJiOSCore/Classes/Views/MJNotificationView.m; sourceTree = "<group>"; };
 		571AEE76A2C6055C21056854F37950CB /* MJContainedTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJContainedTableViewController.h; path = MJiOSCore/Classes/ViewControllers/MJContainedTableViewController.h; sourceTree = "<group>"; };
 		5886999CCFC884D7708858D9F596D6B8 /* UIImageView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Haneke.h"; path = "Haneke/UIImageView+Haneke.h"; sourceTree = "<group>"; };
 		5ABCF65873B964DEC99CF58C85BD94F9 /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F6842E8AF668BEF78E206BA27971D /* Pods-MJiOSCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJiOSCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5BE808D0488946714FC5DC9F428A32E6 /* CLTransformation+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLTransformation+Additions.m"; path = "MJiOSCore/Classes/Cloudinary/CLTransformation+Additions.m"; sourceTree = "<group>"; };
-		5EEC5E40D753F2C7A0064FB66419DFD4 /* Pods_MJiOSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJiOSCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEC5E40D753F2C7A0064FB66419DFD4 /* Pods_MJiOSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJiOSCore_Tests.framework; path = "Pods-MJiOSCore_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621E853E4CC6560029AE8CF252FC6FA6 /* NSString+CLURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CLURLEncoding.h"; path = "Cloudinary/NSString+CLURLEncoding.h"; sourceTree = "<group>"; };
 		66B3687D782B9D7B49B3FCFD7ACF0105 /* UIImageView+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Haneke.m"; path = "Haneke/UIImageView+Haneke.m"; sourceTree = "<group>"; };
 		68064B591F7D838221D2336EC29E2CD2 /* Haneke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haneke-dummy.m"; sourceTree = "<group>"; };
@@ -240,17 +240,17 @@
 		853838898898C691778D6A7B4EEA1FF6 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKNetworkFetcher.m; path = Haneke/HNKNetworkFetcher.m; sourceTree = "<group>"; };
 		86C181522A28A280E263299F4085B020 /* MJContainedTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJContainedTableViewController.m; path = MJiOSCore/Classes/ViewControllers/MJContainedTableViewController.m; sourceTree = "<group>"; };
 		88F88FD3689C8FA284D41C97C3359AC6 /* HNKDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskCache.h; path = Haneke/HNKDiskCache.h; sourceTree = "<group>"; };
-		88FDDBC738D90DD02A40191801DEA61A /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FDDBC738D90DD02A40191801DEA61A /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cloudinary.framework; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A11342F93E782041B09C4A9F3E8A066 /* UIView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Haneke.h"; path = "Haneke/UIView+Haneke.h"; sourceTree = "<group>"; };
 		8B6E2347995200E4F7DF6161D03EBD30 /* MJPDFViewerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPDFViewerViewController.h; path = MJiOSCore/Classes/ViewControllers/MJPDFViewerViewController.h; sourceTree = "<group>"; };
 		8C5BEEA2A14CA206F94A8DCE2262A6D6 /* MJiOSCoreCloudinaryHaneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreCloudinaryHaneke.h; path = MJiOSCore/Classes/CloudinaryHaneke/MJiOSCoreCloudinaryHaneke.h; sourceTree = "<group>"; };
 		8D96A0ECA7C0A5A93FDF281391C7E55A /* Pods-MJiOSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJiOSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DFD2325114D9B7657AB61FAA1BCE396 /* Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = Haneke/Haneke.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4C103DB4BECB4CAE3BA789017DBF2 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Blocks.m"; path = "MJiOSCore/Classes/Views/UIAlertView+Blocks.m"; sourceTree = "<group>"; };
 		940C5184487AEECE4B8F98582551DBD1 /* MJiOSCoreTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreTools.h; path = MJiOSCore/Classes/Tools/MJiOSCoreTools.h; sourceTree = "<group>"; };
 		978AFAA5FF2B34A696AB14A2FD1D7030 /* MJPushNotificationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPushNotificationQueue.h; path = MJiOSCore/Classes/Tools/MJPushNotificationQueue.h; sourceTree = "<group>"; };
-		97FF59B9DA3347716D134B134AA80C4E /* MJiOSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJiOSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FF59B9DA3347716D134B134AA80C4E /* MJiOSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJiOSCore.framework; path = MJiOSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B48F816C72928F25B46D29BD4DFB759 /* MJViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJViewController.h; path = MJiOSCore/Classes/MVP/MJViewController.h; sourceTree = "<group>"; };
 		9E0ABB94917AB3FF48E1367E126BBA44 /* MJTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJTableViewController.h; path = MJiOSCore/Classes/MVP/MJTableViewController.h; sourceTree = "<group>"; };
 		9F07598A7C1CD4EFCA852D6FA579843E /* Pods-MJiOSCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJiOSCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -263,9 +263,9 @@
 		A5775ABF5F93A0B335801EBBBFD053E3 /* MJCloudinaryInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJCloudinaryInterface.m; path = MJiOSCore/Classes/Cloudinary/MJCloudinaryInterface.m; sourceTree = "<group>"; };
 		A632AD1DDD48DC5E3D5B4597644C59E6 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+Blocks.h"; path = "MJiOSCore/Classes/Views/UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
 		A8E59D89FDAAF441D47C0B2543E5F8BA /* HNKDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskCache.m; path = Haneke/HNKDiskCache.m; sourceTree = "<group>"; };
-		A9623D228410DC0D48E5FF7E9373A720 /* MJiOSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MJiOSCore.podspec; sourceTree = "<group>"; };
+		A9623D228410DC0D48E5FF7E9373A720 /* MJiOSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MJiOSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB2376704D55C15F66D83C368F3AC4DB /* UIBarButtonItem+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Additions.h"; path = "MJiOSCore/Classes/Views/UIBarButtonItem+Additions.h"; sourceTree = "<group>"; };
-		ACF32EDD98B79B08EEEE31481BD66FEB /* Pods_MJiOSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJiOSCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF32EDD98B79B08EEEE31481BD66FEB /* Pods_MJiOSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJiOSCore_Example.framework; path = "Pods-MJiOSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAF185E239F55591F6C923E360825F4 /* Pods-MJiOSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJiOSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ADCF5A683D4E5F6034D3F64CA53CB996 /* MJViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJViewController.m; path = MJiOSCore/Classes/MVP/MJViewController.m; sourceTree = "<group>"; };
 		AE0837D8B2819F26D07D77D2AD7E6C50 /* CLEagerTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLEagerTransformation.h; path = Cloudinary/CLEagerTransformation.h; sourceTree = "<group>"; };
@@ -288,7 +288,7 @@
 		C49254A46DE8D22F677E5955B2E449EE /* UIDevice+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Additions.h"; path = "MJiOSCore/Classes/Tools/UIDevice+Additions.h"; sourceTree = "<group>"; };
 		C8BE46CA16040D277065A51E14FF7FFE /* MJiOSCoreViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJiOSCoreViews.h; path = MJiOSCore/Classes/Views/MJiOSCoreViews.h; sourceTree = "<group>"; };
 		C927A88E6F0D85055DABC201A8B90BB9 /* Pods-MJiOSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJiOSCore_Example-dummy.m"; sourceTree = "<group>"; };
-		CAD5E3C27068316BE8FDE56DBB448A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAD5E3C27068316BE8FDE56DBB448A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB0FCD3FE363800DACCC0E6B7C504B0F /* UIView+SeparatorSubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SeparatorSubview.h"; path = "MJiOSCore/Classes/Views/UIView+SeparatorSubview.h"; sourceTree = "<group>"; };
 		CB477B2AA6287694E00BCCE376C492EF /* MJPushNotificationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPushNotificationQueue.m; path = MJiOSCore/Classes/Tools/MJPushNotificationQueue.m; sourceTree = "<group>"; };
 		CBD7EF398C92D2B0DD4211B7EA5571D5 /* HNKCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKCache.h; path = Haneke/HNKCache.h; sourceTree = "<group>"; };
@@ -406,6 +406,7 @@
 				3D03022F602A7CEF33F014AA006732D5 /* NSString+CLURLEncoding.m */,
 				46D128854C3509FF8319C269C5F13AF9 /* Support Files */,
 			);
+			name = Cloudinary;
 			path = Cloudinary;
 			sourceTree = "<group>";
 		};
@@ -550,6 +551,7 @@
 				4C4C4E571BD2BAF523E78246A9F1510B /* UIView+Haneke.m */,
 				605201A06160E785EC2276B3B49C5325 /* Support Files */,
 			);
+			name = Haneke;
 			path = Haneke;
 			sourceTree = "<group>";
 		};

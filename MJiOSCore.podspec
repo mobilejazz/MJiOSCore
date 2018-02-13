@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MJiOSCore'
-  s.version          = '1.5.2'
+  s.version          = '1.5.3'
   s.summary          = 'Mobile Jazz iOS Core'
 
 # This description is used to generate tags and improve search results.

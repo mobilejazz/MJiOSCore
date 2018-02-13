@@ -1,23 +1,23 @@
 PODS:
   - Cloudinary (1.0.15)
   - Haneke (1.0.2)
-  - MJiOSCore (1.5.1):
-    - MJiOSCore/MVP (= 1.5.1)
-    - MJiOSCore/Tools (= 1.5.1)
-    - MJiOSCore/ViewControllers (= 1.5.1)
-    - MJiOSCore/Views (= 1.5.1)
-  - MJiOSCore/Cloudinary (1.5.1):
+  - MJiOSCore (1.5.3):
+    - MJiOSCore/MVP (= 1.5.3)
+    - MJiOSCore/Tools (= 1.5.3)
+    - MJiOSCore/ViewControllers (= 1.5.3)
+    - MJiOSCore/Views (= 1.5.3)
+  - MJiOSCore/Cloudinary (1.5.3):
     - Cloudinary (~> 1.0)
     - MJiOSCore/Tools
-  - MJiOSCore/CloudinaryHaneke (1.5.1):
+  - MJiOSCore/CloudinaryHaneke (1.5.3):
     - Haneke (~> 1.0)
     - MJiOSCore/Cloudinary
-  - MJiOSCore/MVP (1.5.1):
+  - MJiOSCore/MVP (1.5.3):
     - MJiOSCore/Tools
-  - MJiOSCore/Tools (1.5.1)
-  - MJiOSCore/ViewControllers (1.5.1):
+  - MJiOSCore/Tools (1.5.3)
+  - MJiOSCore/ViewControllers (1.5.3):
     - MJiOSCore/Tools
-  - MJiOSCore/Views (1.5.1):
+  - MJiOSCore/Views (1.5.3):
     - MJiOSCore/Tools
 
 DEPENDENCIES:
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
   Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
-  MJiOSCore: 804d737646274c3daafef6a1e8b05b172ee195bf
+  MJiOSCore: 038791aba324625f3e5efd653931aa754b657855
 
 PODFILE CHECKSUM: 46b30bccb117df7c23c062f29f14572c32987b88
 
